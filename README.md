@@ -1,8 +1,9 @@
 
 
 ## Social networks ##
+[![Linkedin](/img/Linkedin.png)](https://www.linkedin.com/in/josep-vicent-mestre-llobell/)
 
-<a herf="https://www.linkedin.com/in/josep-vicent-mestre-llobell/" src="/img/Linkedin.png"></a>
+
 
 - 🌱 I’m currently learning cross platform application development 
 <!--
