@@ -2,7 +2,7 @@
 
 ## Social networks ##
 
-<a herf="https://www.linkedin.com/in/josep-vicent-mestre-llobell/"><img src="/img/Linkedin.png"></a>
+<a herf="https://www.linkedin.com/in/josep-vicent-mestre-llobell/" src="/img/Linkedin.png"></a>
 
 - 🌱 I’m currently learning cross platform application development 
 <!--
