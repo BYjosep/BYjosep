@@ -6,6 +6,16 @@
     <title>Contáctame | Josep Vicent Mestre Llobell</title>
     <link rel="icon" href="img/logo.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        form .fila {
+            display: flex;
+            gap: 1em;
+            flex-wrap: wrap;
+        }
+        form .fila input {
+            flex: 1;
+        }
+    </style>
 </head>
 <body>
 <header class="sticky">
@@ -31,8 +41,8 @@
 
     <section>
         <h2>¿Quieres saber más?</h2>
-        <form action="https://formspree.io/f/tu-codigo" method="POST">
-            <div style="display: flex; flex-wrap: wrap; gap: 1em;">
+        <form action="https://formspree.io/f/mwpladab" method="POST">
+            <div class="fila">
                 <input type="text" name="nombre" placeholder="Nombre" required>
                 <input type="email" name="email" placeholder="Dirección de email" required>
                 <input type="tel" name="telefono" placeholder="Número de teléfono">
