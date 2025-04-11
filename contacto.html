@@ -15,6 +15,16 @@
         form .fila input {
             flex: 1;
         }
+        form input[required], form textarea[required] {
+            border-left: 4px solid var(--accent-color);
+        }
+        form input::placeholder, form textarea::placeholder {
+            opacity: 0.8;
+        }
+        .required-label::after {
+            content: " *";
+            color: red;
+        }
     </style>
 </head>
 <body>
@@ -48,7 +58,7 @@
                 <input type="tel" name="telefono" placeholder="Número de teléfono">
             </div>
             <textarea name="mensaje" placeholder="Mensaje" rows="5" required></textarea>
-            <p>Se aplica nuestra <a href="#">Política de privacidad</a>.</p>
+            <p><small><span style="color: red">*</span> Campos obligatorios. Se aplica nuestra <a href="#">Política de privacidad</a>.</small></p>
             <button type="submit">Enviar</button>
         </form>
     </section>
