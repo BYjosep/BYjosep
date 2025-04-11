@@ -1,17 +1,16 @@
-<!-- sobre-mi.html -->
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre mí - Josep Vicent Mestre Llobell</title>
+    <title>Contáctame | Josep Vicent Mestre Llobell</title>
     <link rel="icon" href="img/logo.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header class="sticky">
     <a href="index.html" class="logo">
-        <img src="./img/logo.png" alt="Josep Vicent Mestre Llobell">
+        <img src="img/logo.png" alt="Logo del sitio">
         <span>Josep Vicent Mestre Llobell</span>
     </a>
     <nav>
@@ -23,25 +22,25 @@
 
 <main>
     <section class="contenido">
-        <img src="img/sobre-mi/01.avif" alt="Imagen personal">
+        <img src="img/contacto/01.avif" alt="Reunión profesional">
         <div>
-            <h2>Sobre mí</h2>
-            <p>Ningún comienzo es fácil. Como todo el mundo, también me he encontrado baches en el camino, pero si me preguntas, nunca me he rendido. ¿Por qué? Porque cualquier esfuerzo realizado merece la pena para ofrecerte ahora la mejor calidad.</p>
-            <div class="redes">
-                <div>
-                    <h3>Github</h3>
-                    <a href="https://github.com/BYjosep" class="btn" target="_blank">Perfil</a>
-                </div>
-                <div>
-                    <h3>Linkedin</h3>
-                    <a href="https://www.linkedin.com/in/josep-vicent-mestre-llobell/" class="btn" target="_blank">Perfil</a>
-                </div>
-                <div>
-                    <h3>Currículum</h3>
-                    <a href="curriculum.html" class="btn">Ver</a>
-                </div>
-            </div>
+            <h2>Contactar</h2>
+            <p>¡Contacta a un estudiante apasionado por la programación y listo para un nuevo desafío! Si estás buscando nuevos talentos con amplia experiencia en sistemas de microcomputadoras en red y una fuerte dosis de pasión por el mundo de la programación, ¡no busques más! Contáctame ya y empecemos juntos un viaje con visión y habilidades en el desarrollo de software. Juntos podemos crear soluciones innovadoras y llevar tus proyectos al siguiente nivel. ¡No pierdas la oportunidad de trabajar con futuros programadores estrella! ¡Contáctame ahora!</p>
         </div>
+    </section>
+
+    <section>
+        <h2>¿Quieres saber más?</h2>
+        <form action="https://formspree.io/f/tu-codigo" method="POST">
+            <div style="display: flex; flex-wrap: wrap; gap: 1em;">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Dirección de email" required>
+                <input type="tel" name="telefono" placeholder="Número de teléfono">
+            </div>
+            <textarea name="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+            <p>Se aplica nuestra <a href="#">Política de privacidad</a>.</p>
+            <button type="submit">Enviar</button>
+        </form>
     </section>
 </main>
 
